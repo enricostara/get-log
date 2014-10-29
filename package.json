@@ -1,0 +1,38 @@
+{
+    "name": "get-log",
+    "version": "1.0.0",
+    "description": "Javascript Logging utility, easy to use and ready for production",
+    "keywords": [
+        "log",
+        "logging",
+        "logger"
+    ],
+    "author": "Enrico Stara <enrico.stara@gmail.com>",
+    "homepage": "https://github.com/enricostara/get-log",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/enricostara/get-log.git"
+    },
+    "bugs": {
+        "url": "https://github.com/enricostara/get-log/issues"
+    },
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "colors": ">=1.0.2",
+        "debug": ">=2.0.0"
+    },
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-jshint": "*",
+        "gulp-mocha": "*",
+        "mocha": "*",
+        "should": "*"
+    },
+    "main": "index",
+    "engines": {
+        "node": "0.10.x"
+    },
+    "scripts": {
+        "test": "gulp test"
+    }
+}
