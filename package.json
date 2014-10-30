@@ -1,11 +1,13 @@
 {
     "name": "get-log",
     "version": "1.0.0",
-    "description": "Javascript Logging utility, easy to use and ready for production",
+    "description": "Logging utility, easy to use and ready for production",
     "keywords": [
         "log",
         "logging",
-        "logger"
+        "logger",
+        "utility",
+        "util"
     ],
     "author": "Enrico Stara <enrico.stara@gmail.com>",
     "homepage": "https://github.com/enricostara/get-log",
