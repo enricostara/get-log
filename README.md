@@ -51,11 +51,16 @@ $ DEBUG=*,-*ugly-name node example.js
 [ERROR] Thu, 30 Oct 2014 00:16:43 GMT my-best-app:ugly-name I m a log wrote on stderr, isn t it?
   ```
   
-## Unit Testing (TDDer zone)
+## Unit Testing 
 
 ```bash
 $ npm test
 ```
+
+## License
+
+The project is a convenient wrapper of the [debug project](https://github.com/visionmedia/debug) 
+and is released under the [Simplified BSD license](./LICENSE) 
   
   
 

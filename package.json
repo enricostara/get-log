@@ -1,6 +1,6 @@
 {
     "name": "get-log",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Logging utility, easy to use and ready for production",
     "keywords": [
         "log",
