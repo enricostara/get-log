@@ -34,7 +34,7 @@ uglyLogger.error('I\'m a log wrote on error stream, isn\'t it?');
 
 ## Execution
 
-Set DEBUG env  to configure what logger (by name) can log at debug level. 
+Set `DEBUG` env  to configure what logger (by name) can log at debug level. 
 Use `*` as wildcard and use `-` as name prefix to exclude; the values are comma separated.
    
  ```bash
@@ -51,7 +51,7 @@ $ DEBUG=*,-*ugly-name node example.js
 [ERROR] Thu, 30 Oct 2014 00:16:43 GMT my-best-app:ugly-name I m a log wrote on stderr, isn t it?
   ```
   
-## Unit Testing (if you are test driven..)
+## Unit Testing (TDDer zone)
 
 ```bash
 $ npm test
