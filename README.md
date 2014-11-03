@@ -5,7 +5,9 @@ Node.js Logging Utility, easy to use and ready for production.
 ## Installation
 
 ```bash
-$ npm install get-log
+$ git clone --branch=master git://github.com/enricostara/get-log.git
+$ cd get-log
+$ npm install
 ```
 
 ## Coding
