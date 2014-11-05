@@ -16,9 +16,11 @@ describe('get-log', function () {
         })
     });
     describe('#isDebugEnabled()', function () {
-        it('should return true ', function () {
-            var logger = require('../index')('logger_name3');
-            logger.isDebugEnabled().should.be.true;
+        it('should log without exception ', function () {
+            var logger = require('../index')('logger');
+            logger.info('Info');
+            logger.warn('Warn');
+            logger.error('Error');
         })
     });
     describe('#isDebugEnabled()', function () {
