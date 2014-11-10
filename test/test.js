@@ -1,5 +1,7 @@
 require('should');
-process.env['DEBUG'] = '*,-*logger_name4';
+var namespace = '*,-*logger_name4';
+process.env['DEBUG'] = namespace;
+require('../index').enable(namespace);
 
 describe('get-log', function () {
     describe('#require(..)("logger_name")', function () {
@@ -16,11 +18,9 @@ describe('get-log', function () {
         })
     });
     describe('#isDebugEnabled()', function () {
-        it('should log without exception ', function () {
-            var logger = require('../index')('logger');
-            logger.info('Info');
-            logger.warn('Warn');
-            logger.error('Error');
+        it('should return true ', function () {
+            var logger = require('../index')('logger_name3');
+            logger.isDebugEnabled().should.be.true;
         })
     });
     describe('#isDebugEnabled()', function () {

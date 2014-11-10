@@ -1,6 +1,6 @@
 {
     "name": "get-log",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Logging utility, easy to use and ready for production",
     "keywords": [
         "log",
@@ -20,8 +20,8 @@
     },
     "license": "BSD-2-Clause",
     "dependencies": {
-        "colors": ">=1.0.2",
-        "debug": ">=2.0.0"
+        "colors": "latest",
+        "debug": "latest"
     },
     "devDependencies": {
         "gulp": "*",
