@@ -59,11 +59,16 @@ $ DEBUG=*,-*ugly-name node example.js
 $ npm test
 ```
 
+## Dependencies
+
+- [colors](https://github.com/Marak/colors.js): get colors in your node.js console
+ 
+- [debug](https://github.com/visionmedia/debug): tiny node.js and browser debugging utility for your libraries and applications
+
+
 ## License
 
-The project is a convenient wrapper of the [debug project](https://github.com/visionmedia/debug) 
-and is released under the [Simplified BSD license](./LICENSE) 
-  
+The project is released under the [MIT license](./LICENSE)   
   
 
 

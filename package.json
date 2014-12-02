@@ -1,6 +1,6 @@
 {
     "name": "get-log",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Logging utility, easy to use and ready for production",
     "keywords": [
         "log",
@@ -18,19 +18,19 @@
     "bugs": {
         "url": "https://github.com/enricostara/get-log/issues"
     },
-    "license": "BSD-2-Clause",
+    "license": "MIT",
     "dependencies": {
         "colors": "latest",
         "debug": "latest"
     },
     "devDependencies": {
-        "gulp": "*",
-        "gulp-jshint": "*",
-        "gulp-mocha": "*",
-        "mocha": "*",
-        "should": "*"
+        "gulp": "latest",
+        "gulp-jshint": "latest",
+        "gulp-mocha": "latest",
+        "mocha": "latest",
+        "should": "latest"
     },
-    "main": "index",
+    "main": "./lib/get-log",
     "engines": {
         "node": "0.10.x"
     },
