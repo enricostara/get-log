@@ -1,6 +1,6 @@
 {
     "name": "get-log",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Logging utility, easy to use and ready for production",
     "keywords": [
         "log",
@@ -32,7 +32,7 @@
     },
     "main": "./lib/get-log",
     "engines": {
-        "node": "0.10.x"
+        "node": ">0.10.30"
     },
     "scripts": {
         "test": "gulp test"
