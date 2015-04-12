@@ -13,6 +13,13 @@ describe('get-log', function () {
             logger.getName().should.be.equal('logger_name');
         })
     });
+    describe('#require(..)("logger_name2") and PROJECT_NAME = "project_name"', function () {
+        it('should return a logger called "project_name:logger_name2"  ', function () {
+            getLogger.PROJECT_NAME = 'project_name';
+            var logger = getLogger('logger_name2');
+            logger.getName().should.be.equal('project_name:logger_name2');
+        })
+    });
     describe('#isDebugEnabled()', function () {
         it('should return true ', function () {
             var logger = getLogger('logger_name3');

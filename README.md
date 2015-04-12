@@ -30,7 +30,7 @@ uglyLogger.warn('This a Warning! Next debug log could not be displayed..');
 
 uglyLogger.debug('Please, don\'t print me!');
 
-uglyLogger.error('I\'m a log wrote on error stream, isn\'t it?');
+uglyLogger.error('I\'m an error log, isn\'t it?');
 
 ```
 
@@ -50,7 +50,7 @@ $ DEBUG=*,-*ugly-name node example.js
 [INFO] Thu, 30 Oct 2014 00:16:43 GMT my-best-app:awesome-name Let s start!
 [DEBUG] Thu, 30 Oct 2014 00:16:43 GMT  my-best-app:awesome-name Current file is /example.js 
 [WARN] Thu, 30 Oct 2014 00:16:43 GMT my-best-app:ugly-name This a Warning! Next debug log could not be displayed..
-[ERROR] Thu, 30 Oct 2014 00:16:43 GMT my-best-app:ugly-name I m a log wrote on stderr, isn t it?
+[ERROR] Thu, 30 Oct 2014 00:16:43 GMT my-best-app:ugly-name I m an error log, isn t it?
   ```
   
 ## Unit Testing 
