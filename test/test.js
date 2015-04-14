@@ -33,13 +33,14 @@ describe('get-log', function () {
         })
     });
     describe('#debug()', function () {
-        it('should return false ', function () {
+        it('should return false ', function (done) {
             var logger = getLogger('logger_name5');
             logger.debug('debug');
             logger.info('info');
             logger.warn('warn');
             logger.error('error');
             (require('fs').readdirSync('.').indexOf(getLogger.logFileName) > -1).should.be.true;
+            require('fs').unlink(getLogger.logFileName, done);
         })
     });
 });
